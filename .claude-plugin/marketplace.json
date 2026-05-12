@@ -14,8 +14,8 @@
       "description": "Founder-grade hiring intelligence. Reads your recorded founder intake like a senior recruiter would, builds your interview rubric, and produces a two-page candidate scorecard PDF that interrupts your bias when the rubric says hold.",
       "version": "0.1.0",
       "source": {
-        "source": "github",
-        "repo": "Collyde-Inc/talentcollyde-hire"
+        "source": "git",
+        "url": "https://github.com/Collyde-Inc/talentcollyde-hire.git"
       }
     }
   ]
