@@ -1,0 +1,83 @@
+Onboarding Interview — Sutter & Vine
+Speakers: Maya Costa (Founder/CEO), Devin Yu (Chief of Staff, interviewer)
+Recorded: 2026-05-08, 14:02 PT
+Duration: 17 min 42 sec
+Source: Zoom cloud recording → Fireflies transcript
+
+[00:00:08] Devin: OK we're recording. So this is the founder interview — basically I'm going to ask you 15 questions across 5 blocks, you talk through them like you're explaining the company to someone smart who doesn't know us. Cool?
+
+[00:00:22] Maya: Yeah let's go.
+
+[00:00:25] Devin: First one. In plain language, what does Sutter & Vine do — and who pays us?
+
+[00:00:33] Maya: We're a natural wine subscription. People sign up, they get four bottles a month, curated. We focus on small producers — biodynamic, low-intervention. Our customer is, you know, late thirties to early fifties, household income north of 150K, lives in a city, cares about food. They pay us $120 a month. We have about 3,200 active subscribers right now and another seven or eight thousand who've cancelled at some point and might come back.
+
+[00:01:10] Devin: Got it. And stage?
+
+[00:01:13] Maya: We're profitable. Have been for two years. Doing about 4.5M annual run rate, growing maybe twenty percent year over year. We're not VC-backed. Bootstrapped. Which matters because every hire is real money out of my pocket — no patient capital here.
+
+[00:01:35] Devin: Mission and values block. What's the underlying problem you're trying to solve in the world? Not the product — the deeper why.
+
+[00:01:47] Maya: Hmm. OK so. The wine industry is run by twenty huge distributors who decide what 99% of Americans drink. Small producers — people doing real, interesting work — they can't get to a US market without going through one of those gatekeepers, who take half the margin and don't care if the bottle is great or just sellable. We're trying to be the path around that. So a small biodynamic vineyard in the Loire can sell direct to a household in Portland and both sides get a fair deal. That's the why.
+
+[00:02:30] Devin: Three to five values. Not aspirational ones. The ones you'd actually fire someone over.
+
+[00:02:38] Maya: OK. Care about the producer. We talk to every producer we work with. If someone on our team can't tell me the name of the winemaker behind a label we sold last month, that's bad. Two — keep our word. Subscriber tells us they don't like reds, we don't send them reds. We've had three customer service hires in three years and the one who lasted is the one who actually changed peoples' boxes when they asked. Three — make less, but make it right. We don't ship discount mystery boxes. We don't do a Black Friday push. Our margins are tighter than they could be because we don't cut corners on sourcing. Four — say the hard thing. If someone has a bad pour or a producer is slipping, we name it. We don't paper over.
+
+[00:03:42] Devin: For each one, give me a moment that made it real.
+
+[00:03:48] Maya: Care about the producer — there's a guy named Pierre who makes a Cab Franc out of the Loire. He had a bad harvest in 2024, told me on the phone he was going to lose his lease. We bought his whole inventory at full price, even the bottles that were a little oxidized. We took the loss on those. He sent me a Christmas card. That's what that value means.
+
+Keep our word — we had a customer in Brooklyn email us 11 times asking why she kept getting bold reds. The CS person we let go would just send her a $5 credit. Brittany — the one who's still here — read the chain, called her, listened, and rebuilt her profile from scratch. The customer's been with us four years now.
+
+Make less but make it right — we had a chance to onboard a producer who was offering us 30% margin instead of our usual 12. The wine was meh. We passed. We left $80K on the table that year.
+
+And — say the hard thing. There's a producer we used to work with — won't name names — who started cutting his blends with bulk wine without telling us. I called him out, he gaslit me, we cut him. He told another importer we were "difficult." Fine.
+
+[00:05:30] Devin: OK. Block three. Last person who absolutely thrived on the team — what made them work here?
+
+[00:05:38] Maya: That's Brittany. CS person I mentioned. She came in with no wine background. She'd been an ICU nurse. She showed up the first week with this notebook and just started writing down everything anyone said to her. Three months in she knew more about our subscribers than I do. She's not "a wine person." She's a person person who happens to work at a wine company. That's the thing.
+
+[00:06:14] Devin: Someone who didn't make it — even if they were talented. What didn't fit?
+
+[00:06:21] Maya: Yeah. So. Couple of years ago I hired a guy — sommelier, certified, worked at a Michelin restaurant. Wine guy. Beautiful palate. Could not — like physically could not — make a spreadsheet. Could not look at the inventory dashboard and tell me what was low. Would taste a wine, write 600 words about it, and never get the producer their PO. We let him go after eight months. The hard part is — I knew. By month two I knew. I kept hoping it would click. He was so passionate about the wine.
+
+[00:07:18] Devin: That's a really useful answer. Let's keep going. Block four — hiring philosophy. Speed or fit?
+
+[00:07:25] Maya: Fit. Always. But [pause] I think the honest answer is when I get behind on something, I move fast and I'm worse at fit. The Will hire — the sommelier — happened during a peak season scramble. I needed someone yesterday. I picked the one I'd had drinks with at Gotham the month before. So. Fit, except when I panic, in which case I hire the most enthusiastic person in the room.
+
+[00:08:02] Devin: Network or cast wide?
+
+[00:08:07] Maya: I keep saying I'll cast wide. I keep hiring from my network. The wine industry is — it's a small community. Everyone knows everyone. My last three hires came from people I knew. Two worked out, one didn't. I think my gut on this is — and I'd like to be wrong about this — but my gut says I trust the network because the wine community is values-aligned. The flip side is when I hire from the network I think I'm hiring for fit, but I'm actually hiring for shared aesthetics. Which is not the same thing.
+
+[00:09:01] Devin: That's a really good distinction. Who decides on hires?
+
+[00:09:05] Maya: Me, mostly. For senior roles I want my CFO — Iris — to do a final round. She's blunt. She catches things I miss. For this Ops role specifically I think I need her involved earlier, not later.
+
+[00:09:32] Devin: Block five. Founder profile. When you've made a great hire, what tipped you to yes?
+
+[00:09:38] Maya: Brittany — what tipped me was, she asked me four really direct questions about how I'd handle a specific customer complaint in the interview. She wasn't testing me. She was checking if she could do the job the way she wanted to do it. I noticed how careful her questions were and I knew.
+
+With Iris — my CFO — what tipped me was her saying "I'd quit if you tried to add a VC round without my buy-in." That kind of clarity about what she would and wouldn't do. People who know their own non-negotiables — that's the tell.
+
+[00:10:32] Devin: When you've made a bad hire, what did you ignore?
+
+[00:10:37] Maya: Two things, almost always. One — they only talked about wine, never about the work of running a business. The Will hire — every story he told me was about wine. Not one was about getting something done. Two — when I asked them what they didn't want to do or weren't good at, they couldn't name it. Both are red flags I now think of as predictive, and I still ignore them sometimes when I'm tired. I need help on this one actually. I keep telling myself I won't hire another wine geek for ops, and then I find one I really like and I talk myself into it.
+
+[00:11:35] Devin: That's worth sitting with. How do you want candidates to feel after they interview with you — even ones you don't hire?
+
+[00:11:42] Maya: Like they learned something. Like the conversation was a good one even if the answer is no. I won't ghost. I write rejection notes by hand. Some of those have become customers.
+
+[00:12:08] Devin: Brand color?
+
+[00:12:11] Maya: Our accent is a kind of muted maroon. Hex is #6b2737. Sutter & Vine red.
+
+[00:12:22] Devin: Anything else before we wrap?
+
+[00:12:26] Maya: For this Ops hire I really need someone who can actually run a fulfillment operation. Pick-pack, inventory, returns, the boring stuff. I keep hiring wine people and getting wine people. I want to know — what do I need to do differently in this interview process to actually screen for the ops chops, not the wine fluency. Because I will absolutely talk myself into the wrong person again if I'm not careful.
+
+[00:13:01] Devin: OK that's a wrap.
+
+[00:13:04] Maya: Cool. Thanks.
+
+[End of recording]

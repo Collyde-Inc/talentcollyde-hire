@@ -1,0 +1,20 @@
+{
+  "name": "talentcollyde-hire",
+  "version": "0.1.0",
+  "description": "Founder-grade hiring intelligence. Four skills that turn a vague hiring need into a defensible decision: define your company DNA, intake the role properly, generate interview questions that actually probe, and produce a two-page evidence-backed scorecard after the interview. Built and given away by TalentCollyde.",
+  "author": {
+    "name": "TalentCollyde",
+    "email": "hello@talentcollyde.com",
+    "url": "https://talentcollyde.com"
+  },
+  "homepage": "https://talentcollyde.com/hire",
+  "keywords": [
+    "hiring",
+    "recruiting",
+    "interview-rubric",
+    "candidate-scorecard",
+    "founder-hiring",
+    "talentcollyde"
+  ],
+  "license": "MIT"
+}

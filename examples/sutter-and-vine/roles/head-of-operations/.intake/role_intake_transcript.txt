@@ -1,0 +1,113 @@
+Role Intake — Head of Operations, Sutter & Vine
+Speakers: Maya Costa (Founder/CEO), Iris Tanaka (CFO), Devin Yu (Chief of Staff, interviewer)
+Recorded: 2026-05-09, 10:00 PT
+Duration: 14 min 06 sec
+Source: Zoom cloud recording → Fireflies transcript
+
+[00:00:06] Devin: Recording. So this is the role intake for the Head of Operations hire. Maya, Iris, you've both been in the founder intake notes — Iris, you read company.md last night?
+
+[00:00:22] Iris: I read it. Two Observations at the top — the Will one and the aesthetics-vs-values one. Both fair. Both apply here.
+
+[00:00:33] Devin: Good. So I'll walk us through five blocks — why this role now, what they own, must-haves, working style with Maya, and process. Fifteen minutes-ish. Cool?
+
+[00:00:48] Maya: Yeah.
+
+[00:00:50] Devin: First — why this role, why now. What's the gap.
+
+[00:00:57] Maya: We've been running ops out of my head and Brittany's notebook for six years. It worked when we were 800 subscribers. We're at 3,200. Inventory is held in two warehouses now — main is the Portland one, secondary is a leased corner of a wine logistics partner in Sacramento. Pick-pack is mostly in-house but we contract two part-timers during peaks. Returns rate is climbing — I think we were at 1.9% last year and we're trending toward 3% this year. I don't have visibility into why. That's the thing that scared me into hiring.
+
+[00:01:48] Iris: It's not "thing I'd be nice to have." We can't grow another season like this. We missed two producer POs in March because nobody owned the calendar. That's $14K of inventory that almost didn't ship in time.
+
+[00:02:08] Devin: So what does the person own.
+
+[00:02:14] Maya: Fulfillment operations end to end. That means inventory, pick-pack, returns, the warehouse relationship in Sacramento, the part-timer pool, the producer PO cadence, the regulatory side of interstate shipping. I want someone who has run an actual fulfillment operation, not someone who's read about one.
+
+[00:02:48] Iris: And vendor management. We have six service vendors right now — shipping carriers, the temperature-controlled storage piece, the age-verification compliance tool, the returns processor. None of them have been re-negotiated in eighteen months. That's table-stakes work the Head of Ops should be doing in their first ninety days.
+
+[00:03:18] Devin: What does success look like at six months.
+
+[00:03:24] Maya: Returns rate back under 2%. PO calendar with no misses. Sacramento warehouse contract renegotiated or replaced. Brittany freed up to actually do customer work instead of plugging ops gaps.
+
+[00:03:48] Iris: And — measurable. I want them to be able to tell me a number, then tell me a different number that's the one after they did the work. If they can't put numbers around what they own I don't want them.
+
+[00:04:08] Devin: That's a really clean ask. Maya, anything you'd add?
+
+[00:04:14] Maya: Yeah. I want them to be the person Brittany calls when something's broken at 9pm. Not me. Brittany has been the de facto ops person and she's drowning. She wants to do customer relationships. She doesn't want to chase down a missing pallet.
+
+[00:04:38] Devin: Block three. Must-haves vs. nice-to-haves. Iris, you want to start?
+
+[00:04:46] Iris: Must-have one — they've run fulfillment operations at director level for at least five years. Not "managed a team that did fulfillment." Run it. Owned the metrics, owned the budget, signed the vendor contracts.
+
+[00:05:08] Maya: Yeah.
+
+[00:05:10] Iris: Must-have two — they've personally owned at least one operational metric. Returns, fulfillment accuracy, OTD, unit cost. They can name what the number was when they got there and what it was when they left. If they can't tell me a story like that they haven't actually done the job.
+
+[00:05:35] Iris: Must-have three — they can be at the warehouse three days a week. That's non-negotiable. Hybrid means hybrid, not "I'll fly in once a quarter."
+
+[00:05:52] Devin: Nice-to-haves?
+
+[00:05:55] Maya: Wine or alcohol experience would be nice. Subscription DTC would be nice. Honestly — I'm afraid of putting either of those on the must-have list because I'll talk myself into the wine person again. I want to keep domain knowledge as a nice-to-have on purpose.
+
+[00:06:22] Iris: Agree. And — comfort working with a small ops team. The person walking in here is going to manage four people in pick-pack and one returns coordinator. They are not coming from a 200-person ops org. If they need a team of fifteen to function we're the wrong fit.
+
+[00:06:50] Devin: Anything that's a hard no.
+
+[00:06:54] Maya: Anyone whose stories are about strategy and vision and not about getting orders out the door. I've heard that pitch. It's the wrong shape for what we need.
+
+[00:07:14] Iris: Anyone who can't tell me a story about a vendor relationship that went bad and what they did about it. Vendor stuff is half the job. If they've never had a hard conversation with a shipping carrier they haven't done this work.
+
+[00:07:38] Devin: Block four. Working style with Maya — and Iris, since you'll be in this regularly. How does this person operate with the two of you.
+
+[00:07:50] Maya: Weekly 1:1 with me. Monthly strategic with Iris. They get to make most decisions without checking with me. I want to be told what they're doing, not asked permission. If something's gonna cost more than $25K or change a producer relationship or hit the customer experience, I want a heads-up. Otherwise — run it.
+
+[00:08:24] Iris: And — push back. The hires I've watched fail in Maya's orbit are the ones who don't push back. Maya will tell you to do something and then change her mind in a week. If you do the first thing without asking why, you've burned a week. I want someone who'll say "I hear you, here's what I'd do differently, here's the cost of changing course."
+
+[00:08:55] Maya: That's fair. I do that.
+
+[00:09:00] Devin: What's the tell they'll push back well.
+
+[00:09:04] Iris: When you ask them what they wouldn't tolerate from a founder, they can tell you specifically. With a past example. If they can't name it, they don't have it.
+
+[00:09:20] Maya: Brittany had it. Iris has it. That's the pattern.
+
+[00:09:28] Devin: Last block. Process. Who's in it.
+
+[00:09:32] Maya: First screen with me — 45 minutes. Then Iris does a 60-minute on operational specifics and vendor stories. Then a half-day on-site at the Portland warehouse. They walk the floor with our lead pick-pack person. They sit with Brittany for an hour. Then back to me for a wrap-up conversation.
+
+[00:10:08] Iris: I want to be involved earlier than I usually am. Maya already said that and I want to hold her to it. Per the Observations note in company.md — I'm the bias-interrupt here. If Maya tells me she loves a candidate after the first screen I want to do the operational deep-dive before we go to onsite. Not after.
+
+[00:10:38] Maya: Agreed.
+
+[00:10:42] Devin: Timeline?
+
+[00:10:45] Maya: I'd like to be talking to people in two weeks. Onsite within three to four weeks of first screen. Offer out within five.
+
+[00:11:00] Iris: Faster is fine. Slower if we don't have the right candidates is also fine. I'd rather wait than re-hire next year.
+
+[00:11:14] Devin: Anything else.
+
+[00:11:18] Maya: One thing. About the location. The role is hybrid — three days a week onsite. I don't want this to be a thing where someone says they'll relocate and then doesn't. I want them already in Portland or actively packing. I need them in the warehouse. The team needs to see them.
+
+[00:11:48] Iris: And don't accept "I'll commute from Seattle." We've done that. It doesn't work.
+
+[00:12:00] Maya: Right.
+
+[00:12:04] Devin: One more thing — and I'm asking because you flagged it in the founder intake. The Will pattern. Are there candidates already in motion who might fit that pattern.
+
+[00:12:18] Maya: [pause] Yeah. There is one. I had a coffee with someone last week — Jordan, comes out of Pacific Wine Co, somm-certified, charming. I have already met with one candidate who I want to like and I can already tell he doesn't have the ops chops. I want to put them through the process anyway, but I want the rubric to do its job. If the rubric says hold, I want to hold. I don't trust myself on this one.
+
+[00:13:00] Iris: That's why I'm in the second round. If you start telling me you love them I'm going to ask you to walk me through their last operational miss with a number on it. If they don't have one, we're not advancing.
+
+[00:13:22] Maya: Right.
+
+[00:13:26] Devin: OK — anything I missed.
+
+[00:13:30] Iris: Just that the rubric needs the operational specificity dimension to actually function as a stop. Not a soft signal. If the candidate can't anchor a quantified failure they personally owned, that's a hold regardless of how well the rest of it goes.
+
+[00:13:50] Maya: Agreed. Build it that way.
+
+[00:13:54] Devin: Got it. Wrapping.
+
+[00:14:02] Maya: Thanks.
+
+[End of recording]

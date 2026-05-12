@@ -1,0 +1,10 @@
+.cache/
+.DS_Store
+Icon
+Icon?
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+*.log
