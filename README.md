@@ -35,7 +35,7 @@ We're TalentCollyde. We run this for our clients end to end — sourcing, screen
 Inside Claude Code, run two commands:
 
 ```
-/plugin marketplace add https://github.com/letscollyde/talentcollyde-hire.git
+/plugin marketplace add https://github.com/Collyde-Inc/talentcollyde-hire.git
 /plugin install talentcollyde-hire@talentcollyde
 ```
 
@@ -82,14 +82,14 @@ talentcollyde-hire/
                 └── scorecard.md (fallback if no reportlab)
 ```
 
-You can rename `talentcollyde-hire/` to whatever you like (e.g., `hiring/`). The skills detect it by content, not by name.
+The default folder is `talentcollyde-hire/` — keep it. If you're running the kit in a workspace dedicated to one company and want the folder named for that company instead, you can rename it (the Sutter & Vine example does — its workspace folder is named after the business). Skills detect by content, not name.
 
 A worked example ships with the plugin at `examples/sutter-and-vine/` — a fictional natural wine subscription with a fictional founder, role, and candidate. Open the scorecard PDF there first to see what the kit produces.
 
 ## Requirements
 
 - Claude Code with the plugin installed.
-- Python 3.9+ and `reportlab` for the branded PDF (`pip install reportlab --break-system-packages`). If reportlab isn't available, the skill writes a markdown scorecard instead — same content, no PDF.
+- Python 3.9+ and `reportlab` for the branded scorecard PDF (`pip install reportlab --break-system-packages`). The PDF is the marquee outcome of `/talentcollyde-hire:score` — install reportlab before you score your first candidate. If it's missing, the skill will pause and ask whether to install or fall back to a markdown scorecard. The markdown carries the same scoring and evidence, but you'll miss the branded leave-behind.
 
 ## The hard rules
 

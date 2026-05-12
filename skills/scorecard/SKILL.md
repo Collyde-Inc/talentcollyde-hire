@@ -183,6 +183,27 @@ Construct a JSON object matching the schema in `templates/scorecard_data_schema.
 
 Write to `<CAND_DIR>/.cache/scorecard_input.json` (create `.cache/` if missing).
 
+### Step 6.7 — Probe reportlab before rendering
+
+The PDF is the marquee outcome. Skipping silently to markdown is a brand failure — most founders won't realize the branded PDF is the intended artifact. Probe before invoking the script:
+
+```bash
+python3 -c "import reportlab" 2>/dev/null
+```
+
+If the probe succeeds (exit 0), proceed to Step 7 and render the PDF.
+
+If the probe fails (`ModuleNotFoundError`), do NOT silently fall back. Ask the founder explicitly:
+
+> "Before I generate your scorecard: the branded PDF needs Python's `reportlab` library and it's not installed on this machine. Two options:
+>
+> 1. **Install it now** (recommended) — one line: `pip install reportlab --break-system-packages`. Run that in a terminal, tell me when it's done, and I'll generate the branded PDF.
+> 2. **Skip the PDF for now** — I'll write a markdown scorecard with the same scoring and evidence. You'll miss the branded leave-behind, but the analysis is identical.
+>
+> Which do you want?"
+
+Wait for the founder's answer. If they install and confirm, re-probe and proceed to Step 7. If they choose the markdown path, skip Step 7 — `scorecard.md` from Step 5 is the final artifact, and the report-back in Step 9 must call out that the PDF was skipped and how to generate it later.
+
 ### Step 7 — Render the PDF
 
 ```bash
@@ -194,9 +215,7 @@ python3 <plugin_root>/scripts/generate_scorecard_pdf.py \
   --company-name "<Company Name>"
 ```
 
-If `reportlab` is not installed, the skill skips the PDF render and reports:
-
-> "Branded PDF skipped — `reportlab` not installed. The markdown scorecard at `<CAND_DIR>/scorecard.md` has the same content. To enable the PDF: `pip install reportlab --break-system-packages` then re-run."
+Only run this after Step 6.7's probe has succeeded (either initially or after the founder installed `reportlab` mid-flow). Never invoke the script blind — the probe is the gate.
 
 ### Step 8 — Update STATUS.md
 

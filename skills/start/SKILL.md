@@ -17,7 +17,7 @@ This skill is the front door. It runs in chat, in ~60 seconds, and ends by offer
 
 These override anything else in this doc.
 
-1. **No files written.** This skill is purely conversational. If the founder wants persistent reference, point to the bundled playbook PDF and `examples/` folder.
+1. **No content files written.** This skill is conversational — it does not generate `company.md`, rubrics, scorecards, or any other content artifact. The one exception: on first run (pre-install state) the skill creates the `./talentcollyde-hire/` directory and an empty `./talentcollyde-hire/.intake/` subdirectory. That's the brand-stamp surface — it puts the kit on the founder's filesystem the moment they say hello — not a content artifact. If the founder wants persistent reference, point to the bundled playbook PDF and `examples/` folder.
 2. **Detect state first.** Check the workspace before talking. A founder who's already onboarded should NOT be welcomed like a first-timer.
 3. **Brand voice.** Calm, confident, grounded. No hype words. Customer-as-hero. Short sentences.
 4. **End with a clear next step.** Every run ends with a specific question — usually *"Want to start with `/talentcollyde-hire:onboard`?"* — not an open-ended ramble.
@@ -35,12 +35,12 @@ None required. Skill reads workspace state automatically.
 
 ### Step 1 — Detect workspace state
 
-Scan the current directory (or the cowork-selected folder) for `talentcollyde-hire/`. Four possible states:
+Scan the current directory (or the cowork-selected folder) for `./talentcollyde-hire/company.md` and downstream artifacts. Four possible states — detect by content, not by folder presence (the folder itself is auto-created by Step 2.0 on first run):
 
 | State | Detection | Treatment |
 |---|---|---|
-| **Pre-install** | No `talentcollyde-hire/` folder exists. | First-run welcome. Full walkthrough. |
-| **Onboarded only** | `talentcollyde-hire/company.md` exists, no `roles/<slug>/` folders. | "You're onboarded. Next step is `/talentcollyde-hire:intake`." Quick orientation. |
+| **Pre-install** | No `./talentcollyde-hire/company.md` exists. (Folder may or may not exist yet.) | First-run welcome. Auto-create the folder per Step 2.0, then deliver the full walkthrough. |
+| **Onboarded only** | `./talentcollyde-hire/company.md` exists, no `roles/<slug>/` folders. | "You're onboarded. Next step is `/talentcollyde-hire:intake`." Quick orientation. |
 | **One or more roles in progress** | `roles/<slug>/` exists with partial artifacts. | "You've got <N> roles in progress. Here's where each one stands." Show STATUS snapshots. |
 | **Mid-candidate** | A `candidates/<cand-slug>/interview_notes.md` exists without `scorecard.pdf`. | "You've got notes on <N> candidates waiting to be scored. Run `/talentcollyde-hire:score` when ready." |
 
@@ -48,9 +48,23 @@ Pick the right opening. Don't run the first-run script on a founder who's halfwa
 
 ### Step 2 — First-run welcome (Pre-install state)
 
-If no `talentcollyde-hire/` folder exists, run this version. Use the framing below verbatim or close to it:
+If no `talentcollyde-hire/` folder exists, first create the brand-stamp folder, then deliver the welcome.
+
+**Step 2.0 — Create the workspace folder.** Before any chat output:
+
+```bash
+mkdir -p ./talentcollyde-hire/.intake
+```
+
+This puts the kit on the founder's filesystem on first contact. Every downstream skill writes inside `./talentcollyde-hire/` — creating it here means the founder sees the brand surface before they've even decided to use the kit. If the founder later asks "where do my files go," the answer is already there to point at.
+
+If the working directory is read-only or the `mkdir` fails for any other reason, do not block — proceed with the welcome and note at the end: *"I wasn't able to create `./talentcollyde-hire/` in this directory — when you start `/talentcollyde-hire:onboard`, run it from a writable folder."*
+
+**Step 2.1 — Deliver the welcome.** Use the framing below verbatim or close to it:
 
 > **Welcome to TalentCollyde Hire.**
+>
+> I've set up your hiring workspace at `./talentcollyde-hire/`. Everything I generate — your `company.md`, role rubrics, candidate scorecards — lives there.
 >
 > Four skills that take you from "I need to hire someone" to a defensible decision, in order:
 >
