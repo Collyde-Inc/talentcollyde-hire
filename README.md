@@ -30,6 +30,10 @@ Most founders hire on gut feel, regret the bad calls, and then spend three month
 
 We're TalentCollyde. We run this for our clients end to end — sourcing, screening, scoring, calibration over time. If you hit three open roles at once, the unit economics of running this yourself stop making sense. That's when you call us. Until then, use the kit.
 
+## See it first
+
+[Sample scorecard PDF](https://github.com/Collyde-Inc/talentcollyde-hire/blob/main/examples/sutter-and-vine/roles/head-of-operations/candidates/jordan-park/scorecard.pdf) — the kit produced this end-to-end from a recorded role intake and pasted interview notes. Open it before you install.
+
 ## Install
 
 Inside Claude Code, run two commands:
