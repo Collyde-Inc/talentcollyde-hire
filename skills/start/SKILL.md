@@ -33,9 +33,21 @@ None required. Skill reads workspace state automatically.
 
 ## Steps
 
+### Step 0 — Create the workspace folder (MANDATORY, RUN FIRST)
+
+**Before reading state, before printing any chat output, before anything else** — use the Bash tool to run:
+
+```bash
+mkdir -p ./talentcollyde-hire/.intake
+```
+
+This is non-negotiable. Every run of this skill begins with this exact Bash tool call. It is idempotent — re-running on an existing folder is a no-op, so it is safe to call on returning founders. State detection in Step 1 will then determine which welcome to use.
+
+If the Bash call returns a non-zero exit code (read-only filesystem, permission denied), do NOT block — continue to Step 1 with state detection. At the end of the welcome, append: *"Heads up — I wasn't able to create `./talentcollyde-hire/` in this directory. When you start `/talentcollyde-hire:onboard`, run Claude Code from a writable folder."*
+
 ### Step 1 — Detect workspace state
 
-Scan the current directory (or the cowork-selected folder) for `./talentcollyde-hire/company.md` and downstream artifacts. Four possible states — detect by content, not by folder presence (the folder itself is auto-created by Step 2.0 on first run):
+Scan the current directory (or the cowork-selected folder) for `./talentcollyde-hire/company.md` and downstream artifacts. Four possible states — detect by content, not by folder presence (the folder itself is auto-created by Step 0):
 
 | State | Detection | Treatment |
 |---|---|---|
@@ -48,19 +60,7 @@ Pick the right opening. Don't run the first-run script on a founder who's halfwa
 
 ### Step 2 — First-run welcome (Pre-install state)
 
-If no `talentcollyde-hire/` folder exists, first create the brand-stamp folder, then deliver the welcome.
-
-**Step 2.0 — Create the workspace folder.** Before any chat output:
-
-```bash
-mkdir -p ./talentcollyde-hire/.intake
-```
-
-This puts the kit on the founder's filesystem on first contact. Every downstream skill writes inside `./talentcollyde-hire/` — creating it here means the founder sees the brand surface before they've even decided to use the kit. If the founder later asks "where do my files go," the answer is already there to point at.
-
-If the working directory is read-only or the `mkdir` fails for any other reason, do not block — proceed with the welcome and note at the end: *"I wasn't able to create `./talentcollyde-hire/` in this directory — when you start `/talentcollyde-hire:onboard`, run it from a writable folder."*
-
-**Step 2.1 — Deliver the welcome.** Use the framing below verbatim or close to it:
+The folder was created in Step 0. Deliver the welcome below verbatim or close to it:
 
 > **Welcome to TalentCollyde Hire.**
 >
