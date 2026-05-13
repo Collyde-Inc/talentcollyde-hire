@@ -185,30 +185,39 @@ Write to `<CAND_DIR>/.cache/scorecard_input.json` (create `.cache/` if missing).
 
 ### Step 6.7 — Probe reportlab before rendering
 
-The PDF is the marquee outcome. Skipping silently to markdown is a brand failure — most founders won't realize the branded PDF is the intended artifact. Probe before invoking the script:
+The PDF is the marquee outcome. Skipping silently to markdown is a brand failure — most founders won't realize the branded PDF is the intended artifact. Probe before invoking the script.
+
+**A single machine can have several Python interpreters on PATH** (Homebrew, Apple's system Python, pyenv, conda). They each have their own `site-packages`. Reportlab installed against one interpreter is invisible to the others. Probe the common ones in order — the first one that imports reportlab wins, and that interpreter is the one Step 7 uses to render.
 
 ```bash
-python3 -c "import reportlab" 2>/dev/null
+for PY in python3 /usr/bin/python3 /opt/homebrew/bin/python3 python; do
+  if command -v "$PY" >/dev/null 2>&1 && "$PY" -c "import reportlab" 2>/dev/null; then
+    echo "REPORTLAB_PY=$PY"
+    break
+  fi
+done
 ```
 
-If the probe succeeds (exit 0), proceed to Step 7 and render the PDF.
+If the probe prints a `REPORTLAB_PY=...` line, capture that interpreter path and use it in Step 7. Proceed to Step 7.
 
-If the probe fails (`ModuleNotFoundError`), do NOT silently fall back. Ask the founder explicitly:
+If the loop finishes without printing anything, no interpreter on this machine has reportlab. Do NOT silently fall back. Ask the founder explicitly:
 
 > "Before I generate your scorecard: the branded PDF needs Python's `reportlab` library and it's not installed on this machine. Two options:
 >
-> 1. **Install it now** (recommended) — one line: `pip install reportlab --break-system-packages`. Run that in a terminal, tell me when it's done, and I'll generate the branded PDF.
+> 1. **Install it now** (recommended) — try `pip install reportlab --break-system-packages` in a terminal. If `pip` is not found or fails, fall back to `/usr/bin/python3 -m pip install --user reportlab` (uses Apple's bundled Python, which is always present on macOS). Tell me when it's done and I'll re-probe.
 > 2. **Skip the PDF for now** — I'll write a markdown scorecard with the same scoring and evidence. You'll miss the branded leave-behind, but the analysis is identical.
 >
 > Which do you want?"
 
-Wait for the founder's answer. If they install and confirm, re-probe and proceed to Step 7. If they choose the markdown path, skip Step 7 — `scorecard.md` from Step 5 is the final artifact, and the report-back in Step 9 must call out that the PDF was skipped and how to generate it later.
+Wait for the founder's answer. If they install and confirm, re-run the probe loop above and capture the working interpreter. If they choose the markdown path, skip Step 7 — `scorecard.md` from Step 5 is the final artifact, and the report-back in Step 9 must call out that the PDF was skipped and how to generate it later.
 
 ### Step 7 — Render the PDF
 
+Use the interpreter captured in Step 6.7 (`REPORTLAB_PY`) — do not assume `python3` on PATH is the right one.
+
 ```bash
 ACCENT_HEX=<from company.md brand accent, or default #c9a96e>
-python3 <plugin_root>/scripts/generate_scorecard_pdf.py \
+"$REPORTLAB_PY" <plugin_root>/scripts/generate_scorecard_pdf.py \
   --input "<CAND_DIR>/.cache/scorecard_input.json" \
   --output "<CAND_DIR>/scorecard.pdf" \
   --client-accent "${ACCENT_HEX}" \
